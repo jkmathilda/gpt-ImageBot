@@ -28,7 +28,7 @@ def clear_text():
     st.session_state.user_input = ""
     
 
-# When Regenerate Image button is clicked
+# When "Regenerate Image" button is clicked
 def clicked():
     client = OpenAI()
     if input_value:
