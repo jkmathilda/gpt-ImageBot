@@ -44,14 +44,16 @@ def main():
     
     if input_value:
         response = client.images.generate(
-            model="dall-e-3",
             prompt=input_value,
-            size="1024x1024",               
+            size="512x512",               
             quality="standard",              # options: "hd" or "standard"
             n=1,                             # create 1 image
         )
-        st.caption(input_value)
-        response.data[0].url
+        
+        try:
+            st.image(response.data[0].url, caption=input_value)
+        except Exception as e:
+            st.error(f"An error occurred: {e}")
 
 
 if __name__ == '__main__':
