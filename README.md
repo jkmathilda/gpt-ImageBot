@@ -1,6 +1,8 @@
 # ImageBot
 
-ImageBot creates images
+ImageBot, much like chatbots powered by LLMs, is adept at fulfilling user requests by generating images based on their prompts. 
+ImageBot's primary function is to interpret prompts and generate corresponding visual content, making it a valuable tool for image generation.
+
 
 # Getting Started
 
