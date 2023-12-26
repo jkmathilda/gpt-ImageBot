@@ -44,6 +44,7 @@ def main():
     
     if input_value:
         response = client.images.generate(
+            model="dall-e-2",
             prompt=input_value,
             size="512x512",               
             quality="standard",              # options: "hd" or "standard"
