@@ -55,5 +55,4 @@ To configure the application, there are a few properties that can be set the env
 
 # Reference
 
-OpenAI Soure
-https://platform.openai.com/docs/guides/images/usage
+[OpenAI Guide](https://platform.openai.com/docs/guides/images/usage)
